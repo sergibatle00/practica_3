@@ -57,7 +57,7 @@ Usando git show v1 podemos ver los cambios del primer commit respecto al readme 
 
 ## 4. Diferencias entre varios commits
 
-Usando el comando git dif podemos ver las diferencias entre una serie de commits:
+Usando el comando git diff podemos ver las diferencias entre una serie de commits:
 
 ```
 git diff main..v1
@@ -65,11 +65,11 @@ git diff main..v1
 
 ![git show](git_diff.PNG)
 
-Así podemos ver los cambios del ultimo commit respecto al primero
+Así podemos ver los cambios del primer commit respecto al ultimo
 
 ## 5. Diferencia entre git show y git diff
 
-La diferencia es que usando git show podemos ver los cambios del commit seleccionado respecto al commit anterior a este y con git diff podemos ver los cambios entre una serie de commits
+La diferencia es que usando git show podemos ver los cambios del commit seleccionado respecto al commit anterior y con git diff podemos ver los cambios entre una serie de commits
 
 
 
